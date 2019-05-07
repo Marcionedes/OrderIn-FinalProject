@@ -1,0 +1,372 @@
+.BreadBottom {
+  height: 13%;
+  width: 80%;
+  background: linear-gradient(#F08E4A, #e27b36);
+  border-radius: 0 0 30px 30px;
+  box-shadow: inset -15px 0 #c15711;
+  margin: 1% auto;
+}
+
+.BreadTop {
+  height: 24%;
+  width: 80%;
+  background: linear-gradient(#bc581e, #e27b36);
+  border-radius: 50% 50% 0 0;
+  box-shadow: inset -15px 0 #c15711;
+  margin: 1% auto;
+  position: relative;
+}
+
+.Seeds1 {
+  width: 8%;
+  height: 15%;
+  position: absolute;
+  background-color: white;
+  left: 30%;
+  top: 50%;
+  border-radius: 40%;
+  transform: rotate(-20deg);
+  box-shadow: inset -2px -3px #c9c9c9;
+}
+
+.Seeds1:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: white;
+  left: -170%;
+  top: -260%;
+  border-radius: 40%;
+  transform: rotate(60deg);
+  box-shadow: inset -1px 2px #c9c9c9;
+}
+
+.Seeds1:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: white;
+  left: 180%;
+  top: -5%;
+  border-radius: 40%;
+  transform: rotate(60deg);
+  box-shadow: inset -1px -3px #c9c9c9;
+}
+
+.Seeds2 {
+  width: 8%;
+  height: 15%;
+  position: absolute;
+  background-color: white;
+  left: 64%;
+  top: 50%;
+  border-radius: 40%;
+  transform: rotate(10deg);
+  box-shadow: inset -3px 0 #c9c9c9;
+}
+
+.Seeds2:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: white;
+  left: 150%;
+  top: -130%;
+  border-radius: 40%;
+  transform: rotate(90deg);
+  box-shadow: inset 1px 3px #c9c9c9;
+}
+
+
+.Beef {
+  width: 84%;
+  height: 9%;
+  background: linear-gradient(#b95211, #b34c0c);
+  margin: 1% auto;
+  border-radius: 15px;
+  position: relative;
+}
+
+.Beef1 {
+  width: 3%;
+  height: 30%;
+  position: absolute;
+  background-color: #b95211;
+  left: 25%;
+  top: 60%;
+  border-radius: 40%;
+  transform: rotate(-20deg);
+  box-shadow: inset -3px -5px brown;
+}
+
+.Beef1:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #b95211;
+  left: -370%;
+  top: -300%;
+  border-radius: 40%;
+  transform: rotate(180deg);
+  box-shadow: inset -3px 5px brown;
+}
+
+.Beef1:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #b95211;
+  left: 400%;
+  top: 100%;
+  border-radius: 40%;
+  transform: rotate(180deg);
+  box-shadow: inset -3px -5px brown;
+}
+
+.Beef2 {
+  width: 3%;
+  height: 30%;
+  position: absolute;
+  background-color: #b95211;
+  left: 65%;
+  top: 50%;
+  border-radius: 40%;
+  transform: rotate(10deg);
+  box-shadow: inset -2px 5px brown;
+}
+
+.Beef2:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #b95211;
+  left: 450%;
+  top: -100%;
+  border-radius: 40%;
+  transform: rotate(150deg);
+  box-shadow: inset 3px 5px brown;
+}
+
+.Beef2:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #b95211;
+  left: -400%;
+  top: 15%;
+  border-radius: 40%;
+  transform: rotate(180deg);
+  box-shadow: inset -3px 5px brown;
+}
+
+.Cheese {
+  width: 85%;
+  height: 3%;
+  margin: 1% auto;
+  background: linear-gradient(#f4d004, #d6bb22);
+  border-radius: 12px;
+}
+
+.Lettuce {
+  width: 85%;
+  height: 5%;
+  margin: 1% auto;
+  background: linear-gradient(#228c1d, #91ce50);
+  border-radius: 8px;
+  position: relative;
+}
+
+.LettuceLine {
+width: 100%;
+height: 14%;
+background: linear-gradient(rgb(44, 167, 44), #91ce50);
+position: absolute;
+border-radius: 40px;
+margin: 1% auto;
+
+}
+
+.Bacon {
+  width: 85%;
+  height: 4%;
+  background: linear-gradient(#bf3813, #c45e38);
+  margin: 1% auto;
+  position: relative;
+}
+
+.BaconLine {
+  width: 100%;
+  height: 20%;
+  background: linear-gradient( #e2a38d, #e5b6a5 );
+  margin: 1.5% auto;
+  position: absolute;
+
+}
+
+.Tomato {
+  width: 82%;
+  height: 4.5%;
+  border-radius: 10px;
+  background: linear-gradient(red , #531c08);
+  margin: 1% auto;
+  position: relative;
+}
+
+
+.TomatoS1 {
+  width: 3%;
+  height: 30%;
+  position: absolute;
+  background-color: rgb(233, 108, 108);
+  left: 25%;
+  top: 60%;
+  border-radius: 40%;
+  transform: rotate(-20deg);
+  box-shadow: inset -2px -3px gold;
+}
+
+.TomatoS1:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgb(233, 108, 108);
+  left: -370%;
+  top: -400%;
+  border-radius: 40%;
+  transform: rotate(180deg);
+  box-shadow: inset -1px 2px gold;
+}
+
+.TomatoS1:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color:rgb(233, 108, 108);
+  left: 400%;
+  top: 200%;
+  border-radius: 40%;
+  transform: rotate(180deg);
+  box-shadow: inset -1px -3px gold;
+}
+
+.TomatoS2 {
+  width: 3%;
+  height: 30%;
+  position: absolute;
+  background-color:rgb(233, 108, 108);
+  left: 65%;
+  top: 50%;
+  border-radius: 40%;
+  transform: rotate(10deg);
+  box-shadow: inset -3px 0 gold;
+}
+
+.TomatoS2:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgb(233, 108, 108);
+  left: 450%;
+  top: -300%;
+  border-radius: 40%;
+  transform: rotate(150deg);
+  box-shadow: inset 1px 3px gold;
+}
+
+.TomatoS2:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgb(233, 108, 108);
+  left: -400%;
+  top: 15%;
+  border-radius: 40%;
+  transform: rotate(180deg);
+  box-shadow: inset -1px 2px gold;
+}
+
+
+.BaconBurger {
+  margin-top: 0%;
+  margin-bottom: 10%;
+  width: 78%;
+  margin: 2% auto;
+  background: linear-gradient(brown, white);
+  border-radius: 10px;
+
+}
+
+.JalapenoBurger {
+  margin-top: 0%;
+  margin-bottom: 10%;
+  width: 78%;
+  margin: 2% auto;
+  background: linear-gradient(darkgreen, white);
+  border-radius: 10px;
+
+}
+
+.CheeseBurger {
+  margin-top: 0%;
+  margin-bottom: 10%;
+  width: 78%;
+  margin: 2% auto;
+  background: linear-gradient(rgb(224, 210, 10), rgb(240, 233, 233));
+  border-radius: 10px;
+
+}
+
+.DoubleBurger {
+  margin-top: 0%;
+  margin-bottom: 10%;
+  width: 78%;
+  margin: 2% auto;
+  background: linear-gradient(#962c05, gold);
+  border-radius: 10px;
+
+}
+
+.Chips {
+  margin-top: 0%;
+  margin-bottom: 10%;
+  width: 78%;
+  margin: 2% auto;
+  background: linear-gradient(#f0ec11, brown);
+  border-radius: 10px;
+
+}
+
+.Water {
+  margin-top: 0%;
+  margin-bottom: 10%;
+  width: 78%;
+  margin: 2% auto;
+  background: linear-gradient(#1c75e9, white);
+  border-radius: 10px;
+
+}
+
+.Coke {
+  margin-top: 0%;
+  margin-bottom: 10%;
+  width: 78%;
+  margin: 2% auto;
+  background: linear-gradient(#e01709, white);
+  border-radius: 10px;
+
+}
+
+
+
+
